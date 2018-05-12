@@ -1,23 +1,31 @@
 .container {
-  max-width: 600px; background: lightgray; padding:30px 30px 30px 30px;
+  max-width: 600px; background: pink; padding:30px 30px 30px 30px;
 }
 body {
-  background: red;
+  background: black;
+}
+h1 {
+  color:white
 }
 body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   }
-
+h5{
+  font-size: 40px; font-style: italic;
+}
 .container {
   margin: 0 auto;
 }
 .story-text {
-    width:70%; float: right;
+    width:60%; float: right;
 }
 .sidebar {
-  width: 30%; float: left;
+  width: 40%; float: margin-left;
+}
+h5{
+  color: white
 }
 
 .clearfix::after {
@@ -49,7 +57,7 @@ ul{
   margin: 10;
 }
 h1{
-  border-style: solid; border-color: black;
+  border-style: solid; border-color: white;
 }
 h3 {
   margin: 0;
