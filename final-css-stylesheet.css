@@ -1,19 +1,36 @@
 .container {
-  max-width: 600px; background: pink; padding:30px 30px 30px 30px;
+  max-width: 600px; background: pink; padding:30px 30px 30px 30px; border-style: solid; border-color: white; border-width: thick;
 }
 body {
   background: black;
 }
 h1 {
-  color:white
+    border-style: double; color:white; font-weight: 400; font-size: 68;
 }
+h2 {
+  border-style: double; color: purple; font-style:italic; font-size: 30; font-family: fantasy;
+}
+h3{
+  border-style: double; color: blue; font-style:italic; font-size: 30; font-family: fantasy;
+}
+h4{
+    border-style: double; color: yellow; font-style:italic; font-size: 30; font-family: fantasy;}
+  p8 { border-style: dotted; font-size: 22; font-weight: 100;
+
+  }
+  p9 { border-style: dotted; font-size: 22; font-weight: 100;
+
+  }
+  p10 { border-style: dotted; font-size: 22; font-weight: 100;
+
+  }
 body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   }
 h5{
-  font-size: 40px; font-style: italic;
+    border-style: double;font-size: 30px; font-style: italic;
 }
 .container {
   margin: 0 auto;
